@@ -1,0 +1,21 @@
+{
+  "name": "training-load",
+  "version": "0.1.0",
+  "description": "Cross-discipline training load modelling: session-RPE, TRIMP, EWMA acute:chronic ratio, monotony/strain and a fitted Banister fitness-fatigue model.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "demo": "tsx examples/demo.ts"
+  },
+  "author": "Matthew Wright",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
